@@ -1,2 +1,2 @@
 # Bipedal-Walker
-This is my project for the AISF project.
+This is my project for the AISF application (ACM AI).
