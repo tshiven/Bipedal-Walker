@@ -1,3 +1,0 @@
-Experiment,ent_coef,Final_Timestep,Final_Eval_MeanReward,Final_Eval_StdReward,Best_Timestep,Best_Eval_MeanReward,Best_Eval_StdReward,Best_Model_Path
-Baseline_NoEntropy,0.0,200000,202.5716844,129.62980160643835,180000,211.34410660000003,104.99547542653968,./models/Baseline_NoEntropy/best_model.zip
-Exploration_0.01,0.01,200000,192.36516079999998,69.33801680054862,200000,192.36516079999998,69.33801680054862,./models/Exploration_0.01/best_model.zip
