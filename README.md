@@ -1,9 +1,9 @@
 # Bipedal-Walker with Reinforcement Learning (PPO)
 This repository contains my implementation of a reinforcement learning agent for the BipedalWalker-v3 environment using the PPO. 
 
-It contains the training code (train.ipynb) which contains all the experiments, final GIFs, and almost everything needed to successfully implement the agent. The repo also has record.py (a supporting file) which is used to record videos of the agent. Apart from these code files, I posted my agent's GIFs at different stages of the process along with the final video of the walker "Final_Bipedal_Walker.mp4". The repo contains a csv file with the statistics of different entropy coefficients. These stats were pivotal for the execution of the walker.
+It contains the training code (train.ipynb) which contains all the experiments, final GIFs, and almost everything needed to successfully implement the agent. The repo also has record.py (a supporting file) which is used to record videos of the agent. Apart from these code files, I posted my agent's GIFs at different stages of the process along with the final video of the walker "Final_Bipedal_Walker.mp4". The repo contains a csv file with the statistics of different entropy coefficients. These stats were pivotal for analyzing the effect of different entropies on the walker's performance.
 
-This is my first RL project, and the goal was to see how different development choices influences learning rate, stability and performance of the final model. This repo contains everything that's needed to reprdouce this experiment. The files needed for conducting this experiment is train.ipynb and record.py. Everything else is automatically generated during the execution of the luck.
+This is my first RL project, and the goal was to see how different development choices influences learning rate, stability and performance of the final model. This repo contains everything that's needed to reprdouce this experiment. The files needed for conducting this experiment is train.ipynb and record.py. Everything else is automatically generated during the execution of the code.
 
 Results over 100 runs
 ------------------------------------------
@@ -14,7 +14,7 @@ Results over 100 runs
 - **80th percentile:** 313.14  
 - **Fail rate (reward < 200):** 0.06
 
-This project formally passes the BipedalWalker - v3.
+This project formally passes the BipedalWalker - v3 with a mean evaulation reward of above 300 over 100 runs.
 
 **References**
 --------------------------------------------
