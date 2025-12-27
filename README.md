@@ -5,19 +5,19 @@ It contains the training code (train.ipynb) which contains all the experiments, 
 
 This is my first RL project, and the goal was to see how different development choices influences learning rate, stability and performance of the final model. This repo contains everything that's needed to reprdouce this experiment. The files needed for conducting this experiment is train.ipynb and record.py. Everything else is automatically generated during the execution of the luck.
 
-A quick highlight of the results over 100 runs:
+Results over 100 runs
 ------------------------------------------
-Mean: 300.99
-Std: 46.86
-Median: 311.73
-20th percentile: 310.46
-80th percentile: 313.14
-Fail rate (<200): 0.06
-------------------------------------------
+- **Mean reward:** 300.99  
+- **Standard deviation:** 46.86  
+- **Median reward:** 311.73  
+- **20th percentile:** 310.46  
+- **80th percentile:** 313.14  
+- **Fail rate (reward < 200):** 0.06
 
 This project formally passes the BipedalWalker - v3.
 
 **References**
+--------------------------------------------
 Schulman, J., Wolski, F., Dhariwal, P., Radford, A., & Klimov, O. (2017). Proximal Policy Optimization Algorithms. arXiv preprint arXiv:1707.06347. https://arxiv.org/abs/1707.06347
 
 Ioffe, S., & Szegedy, C. (2015). Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift. ICML. https://arxiv.org/abs/1502.03167
